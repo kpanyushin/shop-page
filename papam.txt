@@ -1,0 +1,85 @@
+input[type=range].track {
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 10px 0;
+}
+input[type=range].track:focus {
+  outline: none;
+}
+input[type=range].track::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 0px;
+  cursor: pointer;
+  box-shadow: 0px 0px 1px #000000, 0px 0px 0px #0d0d0d;
+  background: #ffffff;
+  border-radius: 1.5px;
+  border: 0.2px solid rgba(0, 1, 1, 0);
+}
+input[type=range].track::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 0.9px solid #969696;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -10.2px;
+}
+input[type=range].track:focus::-webkit-slider-runnable-track {
+  background: #ffffff;
+}
+input[type=range].track::-moz-range-track {
+  width: 100%;
+  height: 0px;
+  cursor: pointer;
+  box-shadow: 0px 0px 1px #000000, 0px 0px 0px #0d0d0d;
+  background: #ffffff;
+  border-radius: 1.5px;
+  border: 0.2px solid rgba(0, 1, 1, 0);
+}
+input[type=range].track::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 0.9px solid #969696;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  background: #ffffff;
+  cursor: pointer;
+}
+input[type=range].track::-ms-track {
+  width: 100%;
+  height: 0px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range].track::-ms-fill-lower {
+  background: #fafafa;
+  border: 0.2px solid rgba(0, 1, 1, 0);
+  border-radius: 3px;
+  box-shadow: 0px 0px 1px #000000, 0px 0px 0px #0d0d0d;
+}
+input[type=range].track::-ms-fill-upper {
+  background: #ffffff;
+  border: 0.2px solid rgba(0, 1, 1, 0);
+  border-radius: 3px;
+  box-shadow: 0px 0px 1px #000000, 0px 0px 0px #0d0d0d;
+}
+input[type=range].track::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 0.9px solid #969696;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  background: #ffffff;
+  cursor: pointer;
+  height: 0px;
+}
+input[type=range].track:focus::-ms-fill-lower {
+  background: #ffffff;
+}
+input[type=range].track:focus::-ms-fill-upper {
+  background: #ffffff;
+}
